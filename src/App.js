@@ -9,8 +9,8 @@ function App(){
   const notify = () => toast.warning("Denne toasten ville jeg ikke spist!");
 
   return (
-    <div>
-      <button onClick={notify} class="  block border-yellow-500 border-2 rounded-full  focus:border-yellow-500 px-4 py-2 text-stone-900 hover:bg-yellow-400 hover:text-white ">
+    <div class="grid place-items-center h-screen">
+      <button onClick={notify} class=" block border-yellow-500 border-2 rounded-full  focus:border-yellow-500 px-10 py-4 text-stone-900 hover:bg-yellow-400 hover:text-white text-lg ">
         Toast? &#127838;
       </button>
      
