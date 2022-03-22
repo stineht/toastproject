@@ -10,7 +10,10 @@ function App(){
 
   return (
     <div>
-      <button onClick={notify}>Toast?</button>
+      <button onClick={notify} class="  block border-yellow-500 border-2 rounded-full  focus:border-yellow-500 px-4 py-2 text-stone-900 hover:bg-yellow-400 hover:text-white ">
+        Toast? &#127838;
+      </button>
+     
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -23,6 +26,7 @@ function App(){
         pauseOnHover
 />
     </div>
+    
   );
 }
 
