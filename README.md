@@ -9,5 +9,5 @@
 
 ### `npm start`
 
-Dette kjører appen
-Du kan se appen på  http://localhost:3000 i nettleseren din
+Dette kjører appen.
+Du kan se appen på  http://localhost:3000 i nettleseren din.
